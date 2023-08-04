@@ -1,0 +1,126 @@
+body {
+    background-color: #000644;
+    color: #ffffff;
+}
+
+
+.nav-link {
+    color: #ffffff;
+}
+
+
+.btn-rounded {
+    border-radius: 50px;
+}
+
+
+.blue-bg {
+    background-color: #001658;
+}
+
+.lighblue-bg {
+    background-color: #02aed7;
+}
+
+.purple-bg {
+    background-color: #7723bc;
+}
+
+.small-img-height-custom {
+    height: 43.18px;
+    width: 100%;
+}
+
+.background-second {
+    background-image: url('../images/background2.png');
+}
+
+.img-icon {
+    width: 80px;
+    height: 80px;
+}
+
+.img-icon-big {
+    width: 115px;
+    height: 115px;
+}
+
+.h-200 {
+    height: 200px;
+}
+
+.h-200 i {
+    font-size: 35px;
+}
+
+.doc-link {
+    text-decoration: none;
+    color: #001658;
+}
+
+.icon-70 {
+    font-size: 70px;
+}
+
+.doc-link i {
+    font-size: 100px;
+}
+
+.doc-link p {
+    font-size: 18px;
+}
+
+footer .navbar {
+    justify-content: flex-start !important;
+}
+
+footer .nav-link {
+
+
+    padding-left: 0.3rem !important;
+    padding-right: 0.3rem !important;
+}
+
+.line {
+    position: relative;
+    width: 40px;
+    height: 2px;
+    background-color: #fff;
+}
+
+.line::after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 15px;
+    height: 2px;
+}
+
+.map {
+    overflow: hidden;
+    max-width: 100%;
+    width: 100%;
+    height: 300px;
+    margin-bottom: 50px;
+}
+
+.map-iframe {
+    height: 100%;
+    width: 100%;
+    border: 0;
+}
+
+#canvas-for-googlemap {
+    height: 100%;
+    width: 100%;
+    max-width: 100%;
+}
+
+#canvas-for-googlemap img {
+    max-width: none !important;
+    background: none !important;
+    font-size: inherit;
+    font-weight: inherit;
+}
